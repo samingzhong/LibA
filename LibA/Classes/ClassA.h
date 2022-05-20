@@ -9,6 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// version:1.0.4
 @interface ClassA : NSObject
 
 - (void)methodA;
