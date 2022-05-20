@@ -40,6 +40,8 @@
 
 
 - (void)initSubViews {
+    self.layer.cornerRadius = 20;
+    self.layer.masksToBounds = YES;
     UIView *topView = UIView.new;
     topView.backgroundColor = UIColor.redColor;
     [self addSubview:topView];
