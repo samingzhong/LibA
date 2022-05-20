@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
     'LibA/Classes/*.{h,m}',
   ]
   s.dependency 'Masonry'
+  s.dependency 'SDWebImage', '~> 5.0.0'
 
   # s.subspec 'GACEventReportUtil' do |ss|
   #   ss.source_files = 'GACEventReportUtil/*.{h,m}'
