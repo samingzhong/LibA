@@ -11,5 +11,6 @@
 #import "ClassA.h"
 #import "ClassB.h"
 #import "CustomViewA.h"
+#import "LibAClassC.h"
 
 #endif /* LibA_h */
